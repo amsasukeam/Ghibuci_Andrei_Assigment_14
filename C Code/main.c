@@ -22,8 +22,8 @@ int main()
 
     printf("The tropological sort is : ");
 
-    orientations(orientation, 1, 10);
-    depth_first_search(rand()%10+1);
+    orientations(orientation, 1, 1000);
+    depth_first_search(rand()%1000+1);
 
     printf("\n The number of pieces used : %d ", counter);
 
